@@ -134,4 +134,9 @@
 .project__title__title {
 }
 .catalog__categories {
+    display: flex;
+    justify-content: center;
+}
+.categories__button{
+    
 }
