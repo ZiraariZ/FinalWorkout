@@ -52,6 +52,10 @@
 }
 .project__slider {
     display: flex;
+    color: black;
+}
+.project__slider a{
+    color: black;
 }
 .slide {
     width: 540px;
@@ -79,6 +83,7 @@
 }
 .slide__sqare p{
     font-size: 14px;
+    font-family: Open Sans;
     margin: 16px;
     margin-top: 0px;
 }
@@ -128,6 +133,7 @@
 .catalog__title {
     display: flex;
     align-items: center;
+    margin-bottom: 70px;
 }
 .project__title__logo {
 }
@@ -136,7 +142,66 @@
 .catalog__categories {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .categories__button{
+    font-size: 24px;
+    font-family: Oswald;
     
+    margin-right: 50px;
+    background-color: transparent;
+}
+.categories__button:hover{
+    color: rgba(0, 91, 193, 1);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
+}
+.subcategories {
+    display: flex;
+    justify-content: space-between;
+}
+.subcategories__sqare{
+    border: 2px solid rgba(0, 91, 193, 1);
+    background-image: url("/img/body/item1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 350px;
+    height: 300px;
+    
+}
+.subcategories__sqare_second{
+    border: 2px solid rgba(0, 91, 193, 1);
+    background-image: url("/img/body/item2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+.subcategories__sqare_therd{
+    border: 2px solid rgba(0, 91, 193, 1);
+    background-image: url("/img/body/item3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+.subcategories__sqare_sqare {
+    position: absolute;
+    background-color: rgba(0, 91, 193, 1);
+    bottom: 10px;
+    right: 0px;
+    width: 265px;
+    height: 86px;
+}
+.subcategories__sqare_sqare p{
+    font-size: 18px;
+    font-family:  Oswald;
+    letter-spacing: 2px;
+    color: white;
+
+    padding: 20px 15px;
 }
