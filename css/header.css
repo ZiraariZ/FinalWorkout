@@ -1,4 +1,5 @@
 .header {
+    margin-bottom: 150px;
 }
 .header__wraper {
     max-width: 1920px;
@@ -17,6 +18,7 @@
 }
 .header__logo{
     /* position: absolute; */
+    opacity: 100%;
     margin-right: 420px;
 }
 .header__logo img {
@@ -36,6 +38,7 @@
     font-size: 14px;
     padding-right: 26px;
     font-family: Open Sans;
+    opacity: 100%;
 }
 .header__menu__href{
     color: white;
@@ -65,10 +68,12 @@
     font-size: 48px;
     font-family: Oswald;
     padding-bottom: 40px;
+    color: white;
 }
 .preview__about__text {
     font-size: 16px;
     padding-bottom: 40px;
+    color: white;
 }
 .preview__about__button {
     font-size: 16px ;
@@ -85,5 +90,5 @@
 .button:hover{
     background-color: white;
     color: black;
-    border: solid black;
+    border: 2px solid black;
 }

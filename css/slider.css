@@ -1,0 +1,67 @@
+.slider{
+    width: 1100px;
+    height: 400px;
+    overflow: hidden;
+    border: 5px solid black;
+}
+.midle{
+    position: relative;
+    margin: 0 auto;
+}
+.under_slider{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.under_slider h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navigation{
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    height: 8px;
+    width: 30px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: brown;
+    opacity: .6;
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+.bar:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+.slide{
+    width: 25%;
+    transition: all 6s ease;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+#r2:checked ~ .s1{
+    margin-left: -25%;
+}
+#r3:checked ~ .s1{
+    margin-left: -50%;
+}
+#r4:checked ~ .s1{
+    margin-left: -75%;
+}
