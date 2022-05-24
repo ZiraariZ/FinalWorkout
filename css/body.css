@@ -76,3 +76,19 @@
     }
 }
 /* ----------------------------------------- */
+
+.body__catalog {
+    padding-top: 150px;
+}
+.body__catalog__content {
+}
+.catalog__title {
+    display: flex;
+    align-items: center;
+}
+.project__title__logo {
+}
+.project__title__title {
+}
+.catalog__categories {
+}
