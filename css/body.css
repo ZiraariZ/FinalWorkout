@@ -82,6 +82,17 @@
     margin: 16px;
     margin-top: 0px;
 }
+.slide_two {
+    width: 540px;
+    height: 400px;
+
+    background-image: url("/img/body/slede2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    margin-right: 30px ;
+}
  
 @keyframes arrow-6-anim {
     0% {
