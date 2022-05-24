@@ -50,6 +50,38 @@
 .arrow-6 svg:active path {
     fill: white;
 }
+.project__slider {
+    display: flex;
+}
+.slide {
+    width: 540px;
+    height: 400px;
+
+    background-image: url("/img/body/slede1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    margin-right: 30px ;
+}
+.slide__sqare{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 250px;
+    height: 110px;
+    background-color: white;
+}
+.slide__sqare h1{
+    font-size: 18px;
+    font-family: Oswald;
+    margin: 16px;
+}
+.slide__sqare p{
+    font-size: 14px;
+    margin: 16px;
+    margin-top: 0px;
+}
  
 @keyframes arrow-6-anim {
     0% {
