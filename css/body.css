@@ -61,7 +61,7 @@
     width: 540px;
     height: 400px;
 
-    background-image: url("/img/body/slede1.png");
+    background-image: url("../img/body/slede1.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -91,7 +91,7 @@
     width: 540px;
     height: 400px;
 
-    background-image: url("/img/body/slede2.png");
+    background-image: url("../img/body/slede2.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -163,7 +163,7 @@
 }
 .subcategories__sqare{
     border: 2px solid rgba(0, 91, 193, 1);
-    background-image: url("/img/body/item1.png");
+    background-image: url("../img/body/item1.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -173,7 +173,7 @@
 }
 .subcategories__sqare_second{
     border: 2px solid rgba(0, 91, 193, 1);
-    background-image: url("/img/body/item2.png");
+    background-image: url("../img/body/item2.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -182,7 +182,7 @@
 }
 .subcategories__sqare_therd{
     border: 2px solid rgba(0, 91, 193, 1);
-    background-image: url("/img/body/item3.png");
+    background-image: url("../img/body/item3.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
