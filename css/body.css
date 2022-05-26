@@ -2,9 +2,7 @@
     max-width: 1110px;
     margin: 0 auto;
 }
-.body__projects {
-}
-.body__projects__content {
+.body__project__content {
     display: flex;
     justify-content: space-between;
 }
@@ -12,10 +10,10 @@
     display: flex;
     align-items: center;
 }
-.project__title__logo {
+.loger{
     padding-right: 40px;
 }
-.project__title__title {
+.titler{
     font-size: 30px;
     font-family: Oswald;
 }
@@ -128,16 +126,10 @@
 .body__catalog {
     padding-top: 150px;
 }
-.body__catalog__content {
-}
 .catalog__title {
     display: flex;
     align-items: center;
     margin-bottom: 70px;
-}
-.project__title__logo {
-}
-.project__title__title {
 }
 .catalog__categories {
     display: flex;
@@ -181,7 +173,7 @@
     height: 300px;
 }
 .subcategories__sqare_therd{
-    border: 2px solid rgba(0, 91, 193, 1);
+    border: 5px solid rgba(0, 91, 193, 1);
     background-image: url("../img/body/item3.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -204,4 +196,59 @@
     color: white;
 
     padding: 20px 15px;
+}
+
+/* ---------------------RENT------------------------- */
+.body__rent{
+    padding-top: 150px;
+}
+.rent__title{
+    display: flex;
+    align-items: center;
+}
+.rent__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.rent__content__about__text{
+    width: 350px;
+    height: auto;
+}
+.rent__content__about__text_text {
+    font-size: 18px;
+    font-family: Open Sans;
+}
+.rent__content__about_divice {
+    border: 5px #337AB7 solid;
+}
+.about_divice__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_device__title__new {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: Oswald;
+}
+.about_divice__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_divice__content__img img{
+    width: 255px;
+    height: 250px;
+}
+.about_divice__content__description h2{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: Oswald;
+    padding-bottom: 30px;
+}
+.about_divice__content__description li{
+    font-size: 14px;
+    font-family: Open Sans;
 }
