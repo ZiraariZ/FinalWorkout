@@ -199,6 +199,7 @@
 }
 
 /* ---------------------RENT------------------------- */
+
 .body__rent{
     padding-top: 150px;
 }
@@ -222,11 +223,12 @@
 }
 .rent__content__about_divice {
     border: 5px #337AB7 solid;
+    width: 665px;
 }
 .about_divice__title {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .about_device__title__new {
     font-size: 18px;
@@ -236,7 +238,7 @@
 .about_divice__content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .about_divice__content__img img{
     width: 255px;
@@ -251,4 +253,99 @@
 .about_divice__content__description li{
     font-size: 14px;
     font-family: Open Sans;
+    list-style-type: disc;
+    padding-bottom: 20px;
 }
+.about_divice__content__description li:last-child{
+    padding-bottom: 0px;
+}
+
+/* ---------------------NEWS------------------------- */
+
+.body__news {
+    padding-top: 108px;
+}
+.news__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 77px;
+}
+.news__title__text {
+    display: flex;
+    align-items: center;
+}
+.news__title__button {
+    width: 15%;
+    height: 51px;
+    color: white;
+    background-color: rgba(0, 91, 193, 1);
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: Open Sans;
+}
+.news__title__button:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease
+}
+.news__rows{
+    display: flex;
+    justify-content: space-between;
+}
+.news__sqare_content {
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+}
+.news__sqare_content__img img {
+    width: 255px;
+    height: 242px;
+}
+.main__title {
+    display: flex;
+    justify-content: space-between;
+}
+.main__title h1{
+    font-size: 18px;
+    font-family: Oswald;
+}
+.main__title p{
+    font-size: 14px;
+    font-family: Open Sans;
+}
+.main__text p{
+    font-size: 14px;
+    font-family: Open Sans;
+    margin-top: 42px;
+    width: 255px;
+}
+.main__button {
+    background-color: transparent;
+    font-size: 14px;
+    font-family: Open Sans;
+    margin-top: 21px;
+}
+#more {display: none;}
+.news__sqare_content_small h1{
+    font-size: 18px;
+    font-family: Oswald;
+
+}
+.news__sqare_content_small p{
+    font-size: 14px;
+    font-family: Open Sans;
+    padding: 20px 0px;
+}
+.sqare_content_small_row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.sqare_content_small_row p{
+    padding: 0px;
+}
+.news__sqare_content_small__img img{
+    width: 128px;
+    height: 115px;
+}
+
