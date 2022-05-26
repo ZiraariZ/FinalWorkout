@@ -1,7 +1,7 @@
 .header {
     margin-bottom: 150px;
 }
-.header__wraper {
+.header__wrapper{
     max-width: 1920px;
     margin: 0 auto;
 
@@ -91,4 +91,9 @@
     background-color: white;
     color: black;
     border: 2px solid black;
+    transform: scale(1.1);
+    transition: all 0.3s ease
+}
+.button:active{
+    transform: scale(1);
 }

@@ -220,6 +220,7 @@
 .rent__content__about__text_text {
     font-size: 18px;
     font-family: Open Sans;
+    line-height: 30px;
 }
 .rent__content__about_divice {
     border: 5px #337AB7 solid;
@@ -286,7 +287,10 @@
 }
 .news__title__button:hover{
     transform: scale(1.1);
-    transition: all 0.3s ease
+    transition: all 0.3s ease;
+}
+.news__title__button:active{
+    transform: scale(1);
 }
 .news__rows{
     display: flex;
@@ -318,6 +322,7 @@
     font-family: Open Sans;
     margin-top: 42px;
     width: 255px;
+    line-height: 19px;
 }
 .main__button {
     background-color: transparent;
@@ -325,11 +330,13 @@
     font-family: Open Sans;
     margin-top: 21px;
 }
+.main__button:hover{
+    text-decoration: underline;
+}
 #more {display: none;}
 .news__sqare_content_small h1{
     font-size: 18px;
     font-family: Oswald;
-
 }
 .news__sqare_content_small p{
     font-size: 14px;
@@ -343,6 +350,7 @@
 }
 .sqare_content_small_row p{
     padding: 0px;
+    line-height: 25px;
 }
 .news__sqare_content_small__img img{
     width: 128px;
